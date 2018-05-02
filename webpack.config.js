@@ -1,5 +1,4 @@
 const path = require("path")
-const FlowtypePlugin = require("flowtype-loader/plugin")
 
 module.exports = {
   mode: "production",
@@ -11,11 +10,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/, use: "babel-loader", // enforce: "pre", exclude: /node_modules/,
+        test: /\.js$/, use: "babel-loader",
       },
     ],
   },
-  plugins: [
-    new FlowtypePlugin(),
-  ],
+  plugins: [],
 }
