@@ -18,5 +18,8 @@ Skeleton js-based application, built using flow, jest, babel, eslint
 * yarn test
   test application using eslint, then flow, and then jest
 
+* yarn dev
+  build application for development environment
+
 * yarn build
-  build application to production ready
+  build application for production environment
