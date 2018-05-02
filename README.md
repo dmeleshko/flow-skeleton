@@ -12,14 +12,18 @@ Skeleton js-based application, built using flow, jest, babel, eslint
 
 ## Usefull commands
 
-* yarn start
+* __yarn start__
+
   start application from main entry point (see package.json)
 
-* yarn test
+* __yarn test__
+
   test application using eslint, then flow, and then jest
 
-* yarn dev
+* __yarn dev__
+
   build application for development environment
 
-* yarn build
+* __yarn build__
+
   build application for production environment
