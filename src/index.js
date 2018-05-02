@@ -3,4 +3,4 @@
 
 import greetings from "./greeting"
 
-console.log(greetings("Dmitriy"))
+console.log(greetings("JS"))
